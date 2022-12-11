@@ -9,7 +9,7 @@ startTime = time.time()
 countToN(1000000)
 endTime = time.time()
 timeElapsed = endTime - startTime
-print(countToN.__closure__)
+# print(countToN.__closure__ )
 print(f"Total execution time is {timeElapsed:.5f}")
 
         
